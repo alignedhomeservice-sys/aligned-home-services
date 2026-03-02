@@ -315,15 +315,13 @@
 
               // Replace with your business email when you have it:
               const to = "alignedhomeservices@example.com";
-              window.location.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
-              return false;
+              window.location.href = window.location.href = `mailto:alignedhomeservice@gmail.com?subject=New Quote Request&body=City: ${city}%0D%0AName: ${name}%0D%0APhone: ${phone}%0D%0ADetails: ${details}`;
+    
             }
           </script>
 
-          <div class="tiny" style="margin-top:10px;">
-            Tip: If you don’t have a business email yet, tell me what email you want to use and I’ll put it in.
-          </div>
-        </div>
+          
+      
 
         <div class="card">
           <h2 style="margin:0 0 6px;">Contact</h2>
