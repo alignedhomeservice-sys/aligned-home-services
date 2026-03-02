@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aligned Home Services LLC | McDonald & Newton County, MO</title>
+  <meta name="description" content="Aligned Home Services LLC serving McDonald & Newton County, Missouri. Reliable home services with clear communication and quality workmanship. Call or text 720-569-1082." />
+  <style>
+    :root{
+      --bg:#ffffff;
+      --ink:#111827;        /* slate-900 */
+      --muted:#6b7280;      /* gray-500 */
+      --line:#e5e7eb;       /* gray-200 */
+      --brand:#0f766e;      /* teal-700 */
+      --brand2:#115e59;     /* teal-800 */
+      --card:#f9fafb;       /* gray-50 */
+      --shadow: 0 10px 25px rgba(17,24,39,.08);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--ink);
+      background:linear-gradient(180deg, #ffffff 0%, #f7fbfb 100%);
+    }
+    a{color:inherit}
+    .wrap{max-width:1040px; margin:0 auto; padding:20px;}
+    header{
+      position:sticky; top:0; z-index:5;
+      backdrop-filter:saturate(160%) blur(8px);
+      background:rgba(255,255,255,.85);
+      border-bottom:1px solid rgba(229,231,235,.7);
+    }
+    .nav{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px; padding:12px 20px;
+      max-width:1040px; margin:0 auto;
+    }
+    .logo{
+      display:flex; align-items:center; gap:10px;
+      font-weight:800; letter-spacing:.2px;
+    }
+    .mark{
+      width:38px; height:38px; border-radius:12px;
+      background: radial-gradient(circle at 30% 30%, #2dd4bf, var(--brand));
+      box-shadow: 0 8px 16px rgba(15,118,110,.25);
+      display:grid; place-items:center;
+      color:white; font-weight:900;
+    }
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:12px 16px; border-radius:999px;
+      border:1px solid var(--line);
+      text-decoration:none;
+      font-weight:700;
+      background:#fff;
+      box-shadow:0 8px 18px rgba(17,24,39,.06);
+      transition: transform .08s ease, box-shadow .12s ease, border-color .12s ease;
+      white-space:nowrap;
+    }
+    .btn:hover{transform: translateY(-1px); box-shadow:0 14px 26px rgba(17,24,39,.10); border-color:#d1d5db;}
+    .btn.primary{
+      background: linear-gradient(180deg, #14b8a6 0%, var(--brand) 100%);
+      color:white; border-color:rgba(0,0,0,0);
+      box-shadow: 0 14px 26px rgba(15,118,110,.25);
+    }
+    .btn.primary:hover{box-shadow: 0 18px 34px rgba(15,118,110,.32);}
+    .hero{
+      padding:46px 0 24px;
+      display:grid; grid-template-columns: 1.2fr .8fr;
+      gap:22px; align-items:stretch;
+    }
+    .pill{
+      display:inline-flex; gap:8px; align-items:center;
+      padding:8px 12px; border-radius:999px;
+      border:1px solid rgba(20,184,166,.25);
+      background:rgba(20,184,166,.08);
+      color:var(--brand2);
+      font-weight:700;
+      font-size:14px;
+    }
+    h1{font-size:42px; line-height:1.06; margin:14px 0 10px;}
+    .lead{font-size:18px; color:var(--muted); line-height:1.6; margin:0 0 18px;}
+    .ctaRow{display:flex; gap:10px; flex-wrap:wrap; margin:14px 0 8px;}
+    .mini{color:var(--muted); font-size:14px;}
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow: var(--shadow);
+    }
+    .grid3{display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; margin:18px 0;}
+    .k{font-weight:800}
+    .muted{color:var(--muted)}
+    .list{margin:10px 0 0; padding:0; list-style:none}
+    .list li{padding:9px 0; border-bottom:1px dashed rgba(229,231,235,.9)}
+    .list li:last-child{border-bottom:none}
+    .badge{
+      display:inline-flex; align-items:center; gap:8px;
+      padding:10px 12px; border-radius:14px;
+      background:white; border:1px solid var(--line);
+      margin:8px 0 0;
+    }
+    .dot{width:10px; height:10px; border-radius:999px; background:var(--brand);}
+    section{padding:22px 0}
+    .two{
+      display:grid; grid-template-columns: 1fr 1fr;
+      gap:14px;
+    }
+    form{display:grid; gap:10px; margin-top:10px;}
+    input, textarea{
+      font:inherit; padding:12px 12px;
+      border-radius:14px; border:1px solid var(--line);
+      background:white;
+      outline:none;
+    }
+    input:focus, textarea:focus{border-color:rgba(15,118,110,.55); box-shadow:0 0 0 4px rgba(20,184,166,.14);}
+    textarea{min-height:120px; resize:vertical}
+    footer{padding:26px 0 40px; color:var(--muted); font-size:14px;}
+    .fine{font-size:12px; color:#9ca3af; line-height:1.5;}
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr; padding-top:26px;}
+      h1{font-size:34px;}
+      .grid3{grid-template-columns:1fr; }
+      .two{grid-template-columns:1fr;}
+      .nav{padding:12px 14px;}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo" aria-label="Aligned Home Services LLC">
+      <div class="mark">A</div>
+      <div>
+        <div style="font-size:15px;">Aligned Home Services LLC</div>
+        <div class="muted" style="font-size:12px; margin-top:2px;">McDonald & Newton County, Missouri</div>
+      </div>
+    </div>
+    <div style="display:flex; gap:10px; align-items:center;">
+      <a class="btn" href="#contact">Request a Quote</a>
+      <a class="btn primary" href="tel:17205691082">Call: (720) 569-1082</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <span class="pill">Reliable • Respectful • Clear Communication</span>
+      <h1>Home services you can feel good about.</h1>
+      <p class="lead">
+        Aligned Home Services LLC provides dependable home service help across <b>McDonald</b> and <b>Newton County, MO</b>.
+        If you want a professional who shows up, explains options clearly, and treats your home with respect — you’re in the right place.
+      </p>
+
+      <div class="ctaRow">
+        <a class="btn primary" href="tel:17205691082">Tap to Call Now</a>
+        <a class="btn" href="sms:17205691082">Text Me</a>
+        <a class="btn" href="#services">See Services</a>
+      </div>
+
+      <p class="mini">Fast replies • Evenings/weekends available when possible • Written estimates</p>
+
+      <div class="grid3">
+        <div class="card">
+          <div class="k">Trustworthy</div>
+          <div class="muted">Clear pricing, clean work, and honest recommendations.</div>
+        </div>
+        <div class="card">
+          <div class="k">Responsive</div>
+          <div class="muted">Calls and texts returned quickly — no ghosting.</div>
+        </div>
+        <div class="card">
+          <div class="k">Respectful</div>
+          <div class="muted">Boot covers when needed, tidy work area, and photos of completed work.</div>
+        </div>
+      </div>
+    </div>
+
+    <aside class="card">
+      <div class="k" style="font-size:18px;">Quick Info</div>
+      <div class="badge"><span class="dot"></span><span><b>Service Area:</b> McDonald & Newton County, MO</span></div>
+      <div class="badge"><span class="dot"></span><span><b>Phone/Text:</b> <a href="tel:17205691082">(720) 569-1082</a></span></div>
+      <div class="badge"><span class="dot"></span><span><b>Hours:</b> Flexible — ask about evenings/weekends</span></div>
+      <div class="badge"><span class="dot"></span><span><b>Estimates:</b> Written, clear, and itemized</span></div>
+      <p class="fine" style="margin-top:12px;">
+        Note: If your job requires a specific trade license or permit, we’ll tell you up front and point you to the right solution.
+      </p>
+    </aside>
+  </section>
+
+  <section id="services">
+    <div class="two">
+      <div class="card">
+        <div class="k" style="font-size:18px;">Services</div>
+        <ul class="list">
+          <li><b>General home repairs</b> (small fixes, punch-list items)</li>
+          <li><b>Fixture swaps</b> (faucets, showerheads, hardware, etc.)</li>
+          <li><b>Drywall patch & paint touch-ups</b></li>
+          <li><b>Door adjustments & locks</b></li>
+          <li><b>Caulking & sealing</b> (bath/kitchen/weatherproofing)</li>
+          <li><b>Light carpentry</b> (trim, minor framing, small builds)</li>
+        </ul>
+        <p class="fine" style="margin-top:12px;">
+          If you want plumbing work listed here, tell me what you’re legally comfortable advertising right now in Missouri (given licensing),
+          and I’ll adjust the copy to keep you safe.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="k" style="font-size:18px;">How it works</div>
+        <ul class="list">
+          <li><b>1) Call/Text:</b> Tell me what’s going on + send a couple photos.</li>
+          <li><b>2) Clear options:</b> You’ll get a simple explanation and a quote.</li>
+          <li><b>3) Schedule:</b> I’ll give you the soonest realistic time window.</li>
+          <li><b>4) Get it done:</b> Clean work, tested results, and you’ll know what was done.</li>
+        </ul>
+        <div class="badge" style="margin-top:12px;">
+          <span class="dot"></span>
+          <span><b>Want a quote?</b> Text photos to <a href="sms:17205691082">720-569-1082</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="two">
+      <div class="card">
+        <div class="k" style="font-size:18px;">Request a quote</div>
+        <p class="muted" style="margin:6px 0 0;">
+          Fill this out and I’ll get back to you. If it’s urgent, calling is fastest.
+        </p>
+
+        <!--
+          This form uses FormSubmit (free) as a simple option.
+          To activate: replace YOUR_EMAIL_HERE with your email, then remove the "disabled" attribute on the button.
+          Alternative: remove the form and just use call/text buttons.
+        -->
+        <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+          <input type="hidden" name="_subject" value="New quote request - Aligned Home Services LLC" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+
+          <input name="name" placeholder="Your name" required />
+          <input name="phone" placeholder="Phone number" required />
+          <input name="location" placeholder="City (McDonald or Newton County)" required />
+          <textarea name="details" placeholder="What do you need help with? (Include any timing needs)" required></textarea>
+
+          <button class="btn primary" type="submit" disabled title="Replace YOUR_EMAIL_HERE to enable this form.">
+            Send Request
+          </button>
+        </form>
+
+        <p class="fine" style="margin-top:10px;">
+          Prefer not to use a form? Just call or text — that’s totally fine.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="k" style="font-size:18px;">Contact</div>
+        <p class="muted" style="margin:6px 0 12px;">Call or text anytime. If I’m on a job, I’ll respond as soon as I can.</p>
+        <div class="ctaRow">
+          <a class="btn primary" href="tel:17205691082">Call: (720) 569-1082</a>
+          <a class="btn" href="sms:17205691082">Text Me</a>
+        </div>
+        <div class="badge"><span class="dot"></span><span><b>Service Area:</b> McDonald & Newton County, MO</span></div>
+
+        <p class="fine" style="margin-top:12px;">
+          Add reviews later (Google is best). Even 3–5 real reviews will boost trust a lot.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>© <span id="y"></span> Aligned Home Services LLC • McDonald & Newton County, Missouri</div>
+    <div class="fine" style="margin-top:8px;">
+      This website provides general information and does not guarantee availability. All work performed subject to scope, safety, and local requirements.
+    </div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+  </html>
